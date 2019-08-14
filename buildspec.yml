@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - python HelloWorld.py
-      - mvn package
+      - python manage.py buildwar
 
 artifacts:
   files:
