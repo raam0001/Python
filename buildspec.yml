@@ -4,8 +4,8 @@ phases:
   build:
     commands:
       - echo Build completed on `date`
-      - python HelloWorld.py
-      - python HelloWorld.py buildwar
+      - jython HelloWorld.py
+      - jython HelloWorld.py buildwar
 
 artifacts:
   files:
