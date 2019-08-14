@@ -1,6 +1,0 @@
-version: 0.0
-os: linux
-files:
-  - source: /__pycache__/HelloWorld.cpython-37.pyc
-    destination: /usr/local/tomcat7/webapps/
-  
