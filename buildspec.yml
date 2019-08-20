@@ -4,7 +4,7 @@ phases:
   build:
     commands:
       - echo Build completed on `date`
-      - Python HelloWorld.py
+      - python HelloWorld.py
       - mvn package
 
 artifacts:
